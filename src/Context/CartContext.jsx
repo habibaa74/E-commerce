@@ -2,6 +2,7 @@ import axios from "axios";
 import { createContext, useEffect, useState } from "react";
 import toast from "react-hot-toast";
  export let CartContext = createContext();
+ 
  export default function CartContextProvider(props){
     const [numOfCart, setnumOfCart] = useState(0)
   const [totalPrice, setTotalPrice] = useState(0)
