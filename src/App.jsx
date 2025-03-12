@@ -23,7 +23,8 @@ import WishList from "./Components/WishList/WishList";
 import VerifyCode from "./Components/ForgetPassword/ForgetPassword";
 import ForgetPassword from "./Components/ForgetPassword/ForgetPassword";
 import ResetCode from "./Components/ResetCode/ResetCode";
-import SetPassword from "./Components/SetPassword/SetPassword";
+import SetPassword from "./Components/SetPassword/SetPassword"
+import "../node_modules/flowbite/dist/flowbite"
 function App() {
   const queryClient = new QueryClient();
   let routes = createBrowserRouter([
